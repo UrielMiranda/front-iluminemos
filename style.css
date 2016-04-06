@@ -60,3 +60,6 @@ header img{
 .navblue{
   border-radius: 10px 10px 0 0;
 }
+.navblue ul {
+  padding: 0 10% 0 13%;
+}
