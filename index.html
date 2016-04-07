@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Iluminemos de Azul</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
@@ -12,7 +14,7 @@
       <img class="img-responsive" src="images/header-sitio-ida.png" alt="">
     </header>
     <div class="container navmenu">
-      <div class="row">
+      <div class="col-md-10  col-lg-10 col-sm-12 col-xs-12 col-md-offset-1 col-lg-offset-1 ">
         <nav class="navbar navbar-default" role="navigation">
           <!-- El logotipo y el icono que despliega el menú se agrupan
                para mostrarlos mejor en los dispositivos móviles -->
@@ -35,12 +37,16 @@
               <li><a href="#">Instituciones</a></li>
               <li><a href="#">Actividades</a></li>
               <li><a href="#">¿Cómo Apoyar?</a></li>
+              <li class="visible-lg"><a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+              <li class="visible-lg"><a href="http://www.twitter.com"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+              <li class="visible-lg"><a href="http://www.instagram.com/iluminemosdeazul/"><i class="fa fa-instagram fa-2x"></i></a></li>
+
             </ul>
           </div>
         </nav>
       </div>
     </div>
-
+    <section id="carrusel">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -79,63 +85,61 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </div>
+    </section>
 
-    </div>
-    </div>
-
-    </div>
-    <section class="panel-cards">
-      <div class="col-md-12">
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-              <h4 class="card-title">Misión</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+    <section class="panel-cards" id="one">
+      <div class="col-md-12 no-margin">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card ">
+            <img class="card-img-top center-block" src="images/capa-5.png" alt="Card image cap">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-              <h4 class="card-title">Directorio</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+            <img class="card-img-top center-block" src="images/capa-4.png" alt="Card image cap">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-              <h4 class="card-title">Noticias</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+            <img class="card-img-top center-block" src="images/capa-3.png" alt="Card image cap">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-              <h4 class="card-title">Tú apoyo</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+            <img class="card-img-top center-block" src="images/capa.png" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="two">
+      <div class="container">
+        <div class="col-md-10 col-sm-12 col-md-offset-1">
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+          <span class="head-news"><h1>Noticias Recientes</h1></span>
+          <article class="news">
+            <h1>lorem now</h1>
+            <h2>12 de abril del 2012</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eaque. Praesentium consequuntur facere tempora, quam commodi natus at cum alias laborum eligendi perferendis laboriosam, inventore quo vero placeat accusamus, sed.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/g3umuOWdMyA" frameborder="0" allowfullscreen></iframe>
+          </div>
           </div>
         </div>
       </div>
     </section>
 
-
+    </div>
+        </div>
     <footer class="footer">
           <div class="container">
-            <div class="col-md-12 col-xs-12 col-sm-12">
-              <div class="col-md-10 <col-xs-7>  </col-xs-7> col-sm-7">
+            <div class="row">
+              <div class="col-md-10 col-xs-10 col-sm-10 col-lg-10 col-md-offset-1 col-sm-offset-1">
                 <ul>
-                  <li><img class="img-responsive pull-left" src="images/logo.png" alt=""></li>
+                  <!-- <li><img class="img-responsive pull-left" src="images/logo.png" alt=""></li> -->
                   <li class="pull-right"><a href="#">Cónocenos</a></li>
                   <li class="pull-right"><a href="#">Hablemos de autismo</a></li>
                   <li class="pull-right"><a href="#">Instituciones</a></li>
