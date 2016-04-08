@@ -65,6 +65,9 @@ header img{
   color: #fff !important;
   height: auto;
 }
+.container  nav{
+  border-radius: 20px;
+}
 .navbar-default .navbar-nav > li > a{
   color: #fff !important;
 }
@@ -113,6 +116,10 @@ header img{
   text-align: center;
 }
 
+.navblue ul li > a[href="http://www.twitter.com"] {padding: 11px;}
+.navblue ul li > a[href="http://www.facebook.com"] {padding: 11px;}
+.navblue ul li > a[href="http://www.instagram.com/iluminemosdeazul/"] {padding: 11px;}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { ... }
 
@@ -120,6 +127,7 @@ header img{
 @media (min-width: @screen-md-min) { ... }
 iframe{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }s
