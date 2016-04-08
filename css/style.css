@@ -7,7 +7,9 @@ header img{
   height: 132px;
   width: 100%;
 }
-
+img{
+  width: 100%; 
+}
 /***********    ID's   ************/
 #one, #two, #carrusel{
   margin-bottom: 20px;
@@ -119,6 +121,14 @@ header img{
 .navblue ul li > a[href="http://www.twitter.com"] {padding: 11px;}
 .navblue ul li > a[href="http://www.facebook.com"] {padding: 11px;}
 .navblue ul li > a[href="http://www.instagram.com/iluminemosdeazul/"] {padding: 11px;}
+
+.img-wrapper img{
+  width: 100%;
+
+}
+.no-padding{
+  padding: 0px!important;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { ... }
